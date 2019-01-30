@@ -2,10 +2,15 @@
 <html>
 	<head>
 		<title>Projection</title>
-		
+		<script>
+		function full() {
+		document.getElementByTagName("svg").requestFullscreen();
+		}
+		</script>
+		<style>
   </head>
 	<body>
 		<h1>Select SVG to project:</h1>
-		<img src="Spotlight.svg"/>
+		<img src="Spotlight.svg" onclick="full()"/>
 	</body>
 </html>

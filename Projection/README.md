@@ -1,2 +1,2 @@
 # Select SVG to project:
-[Spotlight](Spotlight.svg)
+![Spotlight](Spotlight.svg)

@@ -1,5 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" id="svg">
-  <script>document.getElementById("svg").requestFullscreen();</script>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" id="svg" onclick="full">
+  <script>
+    function full {
+    document.getElementById("svg").requestFullscreen();
+    }
+  </script>
   <rect width="800" height="480"/>
   <circle cx="400" cy="240" r="240" fill="#fff"/>
 </svg>

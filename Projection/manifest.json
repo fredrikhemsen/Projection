@@ -14,8 +14,8 @@
     }
   ],
   "start_url": "/Projection",
-  "background_color": "#222222",
+  "background_color": "#000",
   "display": "standalone",
   "scope": "/Projection",
-  "theme_color": "#222222"
+  "theme_color": "#000"
 }

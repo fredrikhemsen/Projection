@@ -13,9 +13,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "/Projection",
   "background_color": "#222222",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/Projection",
   "theme_color": "#222222"
 }

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <defs>
+		<filter id="a" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+		<mask id="b" maskUnits="userSpaceOnUse">
+      <g filter="url(#a)">
+        <circle cx="400" cy="240" r="18"/>
+        <circle cx="400" cy="150" r="63"/>
+        <circle cx="400" cy="150" r="63" transform="rotate(120 400 240)"/>
+				<circle cx="400" cy="150" r="63" transform="rotate(-120 400 240)"/>
+        <rect x="397" y="207" width="6" height="18"/>
+				<rect x="397" y="207" width="6" height="18" transform="rotate(120 400 240)"/>
+				<rect x="397" y="207" width="6" height="18" transform="rotate(-120 400 240)"/>
+        <rect x="388" y="78" width="24" height="12"/>
+				<rect x="388" y="78" width="24" height="12" transform="rotate(120 400 240)"/>
+				<rect x="388" y="78" width="24" height="12" transform="rotate(-120 400 240)"/>
+      </g>
+    </mask>
+		<mask id="c" maskUnits="userSpaceOnUse">
+      <circle cx="400" cy="240" r="60" filter="url(#a)"/>
+    </mask>
+		<clipPath id="d">
+      <circle cx="400" cy="150" r="57"/>
+			<circle cx="400" cy="150" r="57" transform="rotate(120 400 240)"/>
+			<circle cx="400" cy="150" r="57" transform="rotate(-120 400 240)"/>
+    </clipPath>
+  </defs>
+	<g fill="white">
+	  <g mask="url(#b)">
+	    <circle cx="400" cy="174" r="90"/>
+			<circle cx="400" cy="174" r="90" transform="rotate(120 400 240)"/>
+			<circle cx="400" cy="174" r="90" transform="rotate(-120 400 240)"/>
+	  </g>
+	  <circle clip-path="url(#d)" mask="url(#c)" cx="400" cy="240" r="81" fill="white"/>
+	</g>
+</svg>

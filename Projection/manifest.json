@@ -1,5 +1,4 @@
 {
-  "short_name": "Projection",
   "name": "Projection",
   "icons": [
     {
@@ -16,6 +15,5 @@
   "start_url": "/Projection",
   "background_color": "#000",
   "display": "standalone",
-  "scope": "/Projection",
   "theme_color": "#000"
 }

@@ -24,15 +24,12 @@
   			font-family: "Bazar";
   			src: url("Bazar.otf") format("opentype");
 			}
+
 		</style>
 	</head>
 	<body>
 		<h1>Select <span id="c2sc">SVG</span> to project:</h1>
-		<img src="Spotlight.svg" onclick="full()"/>
-		<script>
-		function full() {
-		document.getElementByTagName("img").requestFullscreen();
-		}
-		</script>
+		<img src="Spotlight.svg" onclick="requestFullscreen()"/>
+		<img src="Advarsel.svg" onclick="requestFullscreen()"/>
 	</body>
 </html>

@@ -3,11 +3,6 @@
 	<head>
 		<title>Projection</title>
 		<link rel="manifest" href="manifest.json">
-		<script>
-		function full() {
-		document.getElementById("Spotlight").requestFullscreen();
-		}
-		</script>
 		<style>
 			* {
 				font-family: "Bazar";
@@ -34,5 +29,10 @@
 	<body>
 		<h1>Select <span id="c2sc">SVG</span> to project:</h1>
 		<img src="Spotlight.svg" id="Spotlight" onclick="full()"/>
+		<script>
+		function full() {
+		document.getElementById("Spotlight").requestFullscreen();
+		}
+		</script>
 	</body>
 </html>

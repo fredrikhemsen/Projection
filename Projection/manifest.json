@@ -15,7 +15,7 @@
   ],
   "start_url": "/Projection",
   "background_color": "#000",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "/Projection",
   "theme_color": "#000"
 }

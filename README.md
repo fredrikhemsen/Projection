@@ -1,3 +1,2 @@
-# fredrikhemsen.github.io
-A site for my underwhelming web presence
-[Projection](/Projection/)
+# Projection
+A site for projecting SVGs from your projector phone.
